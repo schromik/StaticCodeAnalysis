@@ -1,0 +1,57 @@
+{
+    "general": {
+      "job": "F1 Driver",
+      "company": "Red Bull Racing",
+      "nationality": "niederländisch",
+      "email": "Max.Vertspannen@rb.au",
+      "phone": "017612345678",
+      "city": "Salzburg"
+    },
+    "keyStrengths": [
+      "Rennpace",
+      "Reifen schonen",
+      "Auto fahren"
+    ],
+    "skills": [
+      {
+        "skill": "Fairness",
+        "rating": 1
+      },
+      {
+        "skill": "Qualifying ",
+        "rating": 3
+      },
+      {
+        "skill": "Rennpace",
+        "rating": 5
+      }
+    ],
+    "projects": [
+      {
+        "project": "Weltmeister 2021",
+        "start": "2021-01-01",
+        "end": "2021-12-31",
+        "info": "Ich wurde zum ersten mal Weltmeister"
+      },
+      {
+        "project": "Weltmeister 2022",
+        "start": "2022-01-01",
+        "end": "2022-12-31",
+        "info": "Ich wurde zum zweiten mal Weltmeister"
+      }
+    ],
+    "qualifications": [
+      {
+        "start": "2010-01-01",
+        "end": "2010-02-01",
+        "info": "Seepferdchen",
+        "place": "Venlo"
+      },
+      {
+        "start": "2016-01-01",
+        "end": "2016-02-01",
+        "info": "F1-Superlizens",
+        "place": "Barcelona"
+      }
+    ]
+  }

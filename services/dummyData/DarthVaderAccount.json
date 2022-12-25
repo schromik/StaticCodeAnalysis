@@ -1,0 +1,8 @@
+{
+    "username": "Anakin.Skywalker@disney.com",
+    "firstname": "Anakin",
+    "surname": "Skywalker",
+    "birthday": "2000-01-01",
+    "passwordHash" : "null",
+    "role": "user"
+}

@@ -1,0 +1,52 @@
+{
+    "general": {
+      "job": "Sith",
+      "company": "Imperium",
+      "nationality": "Tatooine",
+      "email": "Anakin.Skywalker@disney.com",
+      "phone": "017612345678",
+      "city": "Todesstern"
+    },
+    "keyStrengths": [
+      "Lichtschwertkampf",
+      "Laut Atmen"
+    ],
+    "skills": [
+      {
+        "skill": "Lichtschwertkampf",
+        "rating": 4
+      },
+      {
+        "skill": "Laut Atmen",
+        "rating": 5
+      }
+    ],
+    "projects": [
+      {
+        "project": "Cyborg Transformation",
+        "start": "2000-01-01",
+        "end": "2000-12-31",
+        "info": "Ich wurde zu Darth Vader"
+      },
+      {
+        "project": "Imperator Stürzen",
+        "start": "2000-01-01",
+        "end": "2000-12-31",
+        "info": "Ich habe meinen Sohn gerettet"
+      }
+    ],
+    "qualifications": [
+      {
+        "start": "1900-01-01",
+        "end": "1900-02-01",
+        "info": "Seepferdchen",
+        "place": "Tatooine"
+      },
+      {
+        "start": "1990-01-01",
+        "end": "1990-02-01",
+        "info": "Jedi Ausbildung",
+        "place": "Coruscant"
+      }
+    ]
+  }

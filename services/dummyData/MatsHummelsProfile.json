@@ -1,0 +1,65 @@
+{
+    "general": {
+      "job": "Fußballspieler",
+      "company": "Borussia Dortmund",
+      "nationality": "deutsch",
+      "email": "Mats.Hummels@bvb.de",
+      "phone": "017612345678",
+      "city": "Dortmund"
+    },
+    "keyStrengths": [
+      "Passspiel",
+      "Stellungspiel",
+      "Kopfball"
+    ],
+    "skills": [
+      {
+        "skill": "Schnell laufen",
+        "rating": 1
+      },
+      {
+        "skill": "Zur WM mit fahren",
+        "rating": 1
+      },
+      {
+        "skill": "Stellungsspiel",
+        "rating": 4
+      },
+      {
+        "skill": "Passspiel",
+        "rating": 5
+      },
+      {
+        "skill": "Kopfbälle",
+        "rating": 5
+      }
+    ],
+    "projects": [
+      {
+        "project": "Weltmeister 2014",
+        "start": "2014-01-01",
+        "end": "2014-12-31",
+        "info": "Wir sind Weltmeister geworden"
+      },
+      {
+        "project": "Meisterschaft 2011",
+        "start": "2010-08-01",
+        "end": "2011-07-31",
+        "info": "Wir sind Meister geworden"
+      },
+      {
+        "project": "Double 2012",
+        "start": "2011-08-01",
+        "end": "2012-07-31",
+        "info": "Wir haben die Bayern im Pokal abgeschossen"
+      }
+    ],
+    "qualifications": [
+      {
+        "start": "1990-01-01",
+        "end": "1990-02-01",
+        "info": "Seepferdchen",
+        "place": "München"
+      }
+    ]
+  }

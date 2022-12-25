@@ -1,0 +1,8 @@
+{
+    "username": "Max.Verstappen@rb.au",
+    "firstname": "Max",
+    "surname": "Verstappen",
+    "birthday": "1997-09-30",
+    "passwordHash" : "null",
+    "role": "user"
+}
