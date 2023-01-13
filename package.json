@@ -23,6 +23,6 @@
     "pdfkit": "^0.13.0"
   },
   "devDependencies": {
-    "eslint-plugin-custom-rules": "file:eslint",
+    "eslint-plugin-custom-rules": "file:eslint"
   }
 }
