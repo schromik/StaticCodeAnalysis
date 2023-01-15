@@ -1,0 +1,7 @@
+rules:
+  - id: eval
+    languages:
+      - javascript
+    message: Found eval function
+    pattern: eval
+    severity: ERROR

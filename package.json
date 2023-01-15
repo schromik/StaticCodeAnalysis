@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./test.js"
+    "lint": "eslint ./test.js",
+    "semgrep": "semgrep --config=auto && semgrep -f rules.yml"
   },
   "author": "Julian Walter",
   "license": "ISC",
