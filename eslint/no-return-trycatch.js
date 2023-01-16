@@ -37,12 +37,13 @@ function checkTryCatchFinallyForReturn(node) {
     if (statement.type === 'ReturnStatement') {
         hasCatchReturn = true;
     }}
-
+    
+    if(node.finalizer !== null){
     for(statement of node.finalizer.body){
     if (statement.type === 'ReturnStatement') {
         hasFinallyReturn = true;
     }}
-    
+    }
 
     if(hasFinallyReturn && hasTryReturn || hasFinallyReturn && hasCatchReturn){
         return true;
