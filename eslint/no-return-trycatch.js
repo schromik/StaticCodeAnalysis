@@ -8,7 +8,7 @@ module.exports = {
         return {
             TryStatement(node) {
                 if (checkTryCatchFinallyForReturn(node)) {
-                    context.report({ node: node.body, messageId: 'noReturnTryCatch'});
+                    context.report({ node: node, messageId: 'noReturnTryCatch'});
                 }
             }
         }
