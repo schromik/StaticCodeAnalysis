@@ -1,7 +1,7 @@
 # Statische Code Analyse mit ESLint und Semgrep
 
 
-## ESLINT
+# ESLINT
 ESLint, was ist es ?
 ## Installtion
 Installtion
@@ -11,7 +11,7 @@ Konfiguration
 Regeln
 
 
-## Semgrep
+# Semgrep
 ESLint, was ist es ?
 ## Installation
 Installtion
