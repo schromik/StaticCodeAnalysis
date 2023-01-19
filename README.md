@@ -1,5 +1,5 @@
 ```diff
-- #STILL IN BETA
+- #S TILL IN BETA
 ```
 # Statische Code Analyse mit ESLint und Semgrep
 
