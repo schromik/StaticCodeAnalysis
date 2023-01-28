@@ -1,5 +1,5 @@
 rules:
-  - id: return-in-init
+  - id: no-return-trycatch
     pattern-either:
       - pattern:
           try{
