@@ -9,7 +9,7 @@ on:
 jobs:
   semgrep:
     name: Scan
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     env:
       SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
     container:
@@ -17,5 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: semgrep ci
-    - run: npm run semgrep
-    
+    - run: npx run semgrep
