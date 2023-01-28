@@ -22,7 +22,7 @@ jobs:
         run: npx eslint ./thisCodeGetsTested
           --config .eslintrc.js
           --ext .js,.jsx,.ts,.tsx
-        continue-on-error: true
+        continue-on-error: false
 
 
 
