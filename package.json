@@ -4,7 +4,7 @@
   "description": "Statische Codeanalyse mit ESLint und Semgrep",
   "scripts": {
     "lint": "eslint ./thisCodeGetsTested",
-    "semgrep": "semgrep --config=auto && semgrep -f semgrepRules.yml"
+    "semgrep": "semgrep ./thisCodeGetsTested --config=auto && semgrep ./thisCodeGetsTested -f semgrepRules.yml"
   },
   "author": "Sebastian Chromik",
   "license": "MIT",
