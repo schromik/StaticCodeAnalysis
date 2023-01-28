@@ -5,7 +5,8 @@
 /* eslint no-unsafe-finally: 0 */
 
 // Wird diese Funktion nicht auskommentiert und der Code gepushed, schlägt die Pipeline fehl, da im try sowie im finally ein return zufinden ist.
-/*function testA(){
+/*testA();
+function testA(){
     try{
         console.log("try this!");
         return 1;
@@ -48,6 +49,6 @@ function testC(){
     }
 }
 
-testA();
+
 testB();
 testC();
