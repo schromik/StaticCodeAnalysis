@@ -1,7 +1,45 @@
 rules:
-  - id: eval
+  - id: return-in-init
+    pattern-either:
+      - pattern:
+          try{
+            ... return ...
+          }
+          catch($ERR){
+            ...
+          }
+          finally{
+            ... return ...
+          }
+      - pattern:
+          try{
+            ...
+          }
+          catch($ERR){
+            ... return ...
+          }
+          finally{
+            ... return ...
+          }
+      - pattern:
+          try{
+            ... return ...
+          }
+          catch($ERR){
+            ... return ...
+          }
+          finally{
+            ... return ...
+          }
+    message: Do not include a return statement inside a try or catch block, if there is a return statement in the finally block
     languages:
-      - javascript
-    message: Found eval function
-    pattern: eval
+      - js
     severity: ERROR
+
+
+
+
+
+
+
+    

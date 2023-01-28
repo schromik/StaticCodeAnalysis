@@ -1,15 +1,14 @@
 module.exports = {
     "env": {
-        "browser": true,
-        "es2021": true,
-        "node": true
+        "node": true,
+        "commonjs": true,
+        "es2021": true
     },
-    /*"extends": "eslint:recommended",*/
+    "extends": "eslint:recommended",
     "overrides": [
     ],
     "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
+        "ecmaVersion": "latest"
     },
     "plugins":[
         "custom-rules"
@@ -19,7 +18,3 @@ module.exports = {
         "custom-rules/no-return-trycatch": 2,
     }
 }
-
-
-
-

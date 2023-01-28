@@ -1,8 +1,0 @@
-{
-    "username": "admin@skillprofile.com",
-    "firstname": "Ad",
-    "surname": "Min",
-    "birthday": "1900-01-01",
-    "passwordHash" : "null",
-    "role": "admin"
-}
