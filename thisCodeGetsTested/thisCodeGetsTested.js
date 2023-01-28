@@ -1,5 +1,5 @@
-// ERROR
-function testA(){
+// Wird diese Funktion nicht auskommentiert und der Code gepushed, schlägt die Pipeline fehl
+/*function testA(){
     try{
         return 1;
     }
@@ -8,7 +8,7 @@ function testA(){
     finally{
         return 1;  
     }
-}
+}*/
 
 
 // passed
