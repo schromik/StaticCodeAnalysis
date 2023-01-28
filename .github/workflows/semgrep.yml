@@ -16,4 +16,4 @@ jobs:
       image: returntocorp/semgrep
     steps:
     - uses: actions/checkout@v3
-    - run: semgrep --error ./thisCodeGetsTested --config=auto && semgrep --errors ./thisCodeGetsTested -f semgrepRules.yml
+    - run: semgrep --error ./thisCodeGetsTested --config=auto && semgrep --error ./thisCodeGetsTested -f semgrepRules.yml
