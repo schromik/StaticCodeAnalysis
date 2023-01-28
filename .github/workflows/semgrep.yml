@@ -16,4 +16,7 @@ jobs:
       image: returntocorp/semgrep
     steps:
     - uses: actions/checkout@v3
-    - run: semgrep --error ./thisCodeGetsTested --config=auto && semgrep --error ./thisCodeGetsTested -f semgrepRules.yml
+    - run: semgrep ci
+#    - run: semgrep --error ./thisCodeGetsTested -f semgrepRules.yml
+#Will man das Dashboard (www.semgrep.dev) nicht nutzen, kann man letzteren Befehl verwenden
+#um die Regeln manuell einzubinden. Die error flag bedingt das die Pipeline bei einem Fund abbricht.
