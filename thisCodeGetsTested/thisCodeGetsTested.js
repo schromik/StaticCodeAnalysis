@@ -21,6 +21,7 @@ function testA(){
 
 
 // testB besteht den Test, da ein return NUR im finally block zu finden ist
+testB();
 function testB(){
     try{
         console.log("try this!");
@@ -35,6 +36,7 @@ function testB(){
 }
 
 // testC besteht den Test, da ein return NUR im try und/oder catch block zu finden ist
+testC();
 function testC(){
     try{
         console.log("try this!");
@@ -50,5 +52,4 @@ function testC(){
 }
 
 
-testB();
-testC();
+
