@@ -24,7 +24,7 @@ Nach der Beantwortung der Fragen wird die die Konfigurationsdatei im gewünschte
 
 ## Konfiguration
 
-Die Konfigurationdatei enthält nun die angegebenen Informationen und kann darüher hinaus noch erweitert werden.
+Die Konfigurationdatei enthält die angegebenen Informationen und kann darüher hinaus noch erweitert werden.
 
 Standardmäßig ist der Befehl "**"extends": "eslint:recommended"**" enthalten, welcher die vordefinierten Regeln anwendet,
 welche das sind, kann hier nachgesehen werden: https://eslint.org/docs/latest/rules/
