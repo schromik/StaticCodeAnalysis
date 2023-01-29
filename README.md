@@ -43,10 +43,13 @@ In dem Ordner befinden sich drei Arten von Files.
 
 **index.js** -> Diese bindet das Modul mittels "require" ein, so das es bei Bedarf geladen werden kann. 
 
-**package.json** -> Über die package.json wird der Name des Plugins festgelegt, sowie der Entrypoint (index.js).
+**package.json** -> Über die package.json wird der Name des Plugins festgelegt (in diesem Fall "eslint-plugin-custom-rules"), sowie der Entrypoint (index.js).
 
-In diesem Ordner können nun auch weitere JavaScript Files angelegt werden, welche zusätzliche Regeln definieren.
-Diese müssen dann nur noch in der index.js bekannt gemacht werden.
+Wurden eigene Regeln geschrieben können diese in der ".eslintrc.js" unter Plugins mit dem Name des Moduls angegeben werden, in diesem Fall also "custom-rules" ("eslint-plugin" kann wegelassen werden). Unter "rules" können nun weitere Regeln eigebunden, sowie der Status für diese festgelegt werden (error, warn, off bzw. 0,1,2).
+
+Die Regeln müssen hier ebenfalls noch in der Index.js mittels "require" bekannt gemacht werden.
+
+Die hier zusehende ".eslintrc.js" unter dem Punkt "Konfiguration", enthält also das Standardregelset (extends: eslint:recommended), bindet das eigene Plugin ein (custom-rules) und legt unter "rules" fest welche Regeln angewandt werden.
 
 
 # Semgrep
