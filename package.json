@@ -9,7 +9,9 @@
   "author": "Sebastian Chromik",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^8.32.0",
     "eslint-plugin-custom-rules": "file:eslint"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
   }
 }

@@ -14,7 +14,10 @@ module.exports = {
         "custom-rules"
     ],
     "rules": {
+        "no-unsafe-finally": "error",
         "custom-rules/no-empty-catch": 2,
         "custom-rules/no-return-trycatch": 2,
     }
 }
+
+
