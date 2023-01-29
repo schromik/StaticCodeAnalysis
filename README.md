@@ -1,5 +1,7 @@
 # Statische Code Analyse mit ESLint und Semgrep
 
+Dieses Repository wurde im Rahmen der Projetarbeit für das Wahlpflichtmodul "Technischer Datenschutz und Mediensicherheit" erstellt.
+Für ein besseres Verständnis, empfiehlt es sich um vorhinein die Projektdokumentation zu lesen.
 
 # Klonen des Projekts
 
