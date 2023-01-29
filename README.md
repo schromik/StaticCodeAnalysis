@@ -6,7 +6,7 @@
 
 # Klonen des Projekts
 
-Es besteht die Möglichkeit sich dieses Projekt zu klonen, dann muss lediglich ein **"npm install"** sowie ein **"python3 -m pip install semgrep"** ausgeführt werden. Anschließend können die Tests mit "npm run lint" und "npm run semgrep" ausgeführt werden. Falls das gemacht wird kann der Schritt Installation übersprungen werden. Andernfalls ist im Schritt Installtion beschrieben wie diese erfolgt.
+Es besteht die Möglichkeit sich dieses Projekt zu klonen, dann muss lediglich ein **"npm install"** sowie ein **"python3 -m pip install semgrep"** ausgeführt werden. Anschließend können die Tests mit **"npm run lint"** und **"npm run semgrep"** ausgeführt werden. Falls das gemacht wird kann der Schritt Installation übersprungen werden. Andernfalls ist im Schritt Installtion beschrieben wie diese erfolgt.
 
 # ESLINT
 
@@ -26,13 +26,13 @@ Nach der Beantwortung der Fragen wird die die Konfigurationsdatei im gewünschte
 
 Die Konfigurationdatei enthält nun die angegebenen Informationen und kann darüher hinaus noch erweitert werden.
 
-Standardmäßig ist der Befehl ""extends": "eslint:recommended"" enthalten, welcher die vordefinierten Regeln anwendet,
+Standardmäßig ist der Befehl "**"extends": "eslint:recommended"**" enthalten, welcher die vordefinierten Regeln anwendet,
 welche das sind, kann hier nachgesehen werden: https://eslint.org/docs/latest/rules/
 
 Regeln können dabei als "off", "warn" oder "error" hinterlegt sein. Ebenfalls durch "0", "1" und "2" repräsentierbar.
 
 Dabei können diese Regeln global in der "eslintrc.js" unter "rules" festgelegt werden, es besteht aber auch die Möglichkeit diese im Code selbst,
-als Kommentar zu verwalten. Dafür wird beispielsweise mit diesem Kommentar "/* eslint no-unsafe-finally: 0 */" die genannt Regel deaktiviert. 
+als Kommentar zu verwalten. Dafür wird beispielsweise mit diesem Kommentar "**/* eslint no-unsafe-finally: 0 */**" die genannt Regel deaktiviert. 
 
 ## Regeln
 
@@ -59,7 +59,7 @@ Beispielsweise könnte also **"semgrep --config=owasp-top-ten"** ausgeführt wer
 ## Regeln
 
 Für die Definition eigener Regeln muss lediglich eine yaml-Datei erstellt werden, in diesem Fall habe ich sie "semgrepRules.yml" genannt.
-Diese Regeln können dann einfach mit dem Befehl "semgrep -f semgrepRules.yml" angewendet werden.
+Diese Regeln können dann einfach mit dem Befehl "**semgrep -f semgrepRules.yml**" angewendet werden.
 
 
 # CI-Pipeline
@@ -67,7 +67,7 @@ Diese Regeln können dann einfach mit dem Befehl "semgrep -f semgrepRules.yml" a
 Github nennt seine CI/CD Lösung ”Actions” bzw. die Pipelines werden als “Workflows” bezeichnet. Ein neuer Workflow kann unter dem Reiter “Actions” dann “New workflow” und anschließend “set up a workflow yourself” eingerichtet werden. Dies ist nichts anderes als ein Pipeline-Skript im yaml-Format.
 
 
-Für **ESLint** wird hier das Skript "eslint.yml" unter ".github/workflows" verwendet. Zuerst ESLint installiert und dann mittels "npx eslint ./thisCodeGetsTested--config .eslintrc.js --ext .js,.jsx,.ts,.tsx" ausgeführt. Dabei werden die Konfigdatei und die zu scannenden Dateiendungen angegeben. 
+Für **ESLint** wird hier das Skript "eslint.yml" unter ".github/workflows" verwendet. Zuerst ESLint installiert und dann mittels "**npx eslint ./thisCodeGetsTested--config .eslintrc.js --ext .js,.jsx,.ts,.tsx**" ausgeführt. Dabei werden die Konfigdatei und die zu scannenden Dateiendungen angegeben. 
 
 Für **Semgrep** gibt es hier eine elegante Lösung mittel einer GUI, welche unter semgrep.dev zur Verfügung steht.
 Dort kann man sich mit seinem Github Account Anmeldung und anschließend eine Pipeline konfigurieren.
@@ -84,15 +84,15 @@ Unter Projects kann ein neue Pipeline angelegt werden, die nachfolgenden Bilder 
 ![Screenshot](7.png)
 
 
-Nun können die Regeln unter "Rule board" verwaltet werden, dabei kann je nach Spalte entschieden werden, 
+Nun können die Regeln unter "**Rule board**" verwaltet werden, dabei kann je nach Spalte entschieden werden, 
 was passieren soll wenn eine Regel verletzt wird.
 
 
 ![Screenshot](8.png)
 
 
-Auch hier können ebenfalls vorgefertigte Regeln über "Add rules" hinzugefügt werden.
-Eigene Regel können unter "Editor" angelegt und anschließend zu der gewünschten Spalte hinzugefügt werden.
+Auch hier können ebenfalls vorgefertigte Regeln über "**Add rules**" hinzugefügt werden.
+Eigene Regel können unter "**Editor**" angelegt und anschließend zu der gewünschten Spalte hinzugefügt werden.
 
 
 ![Screenshot](9.png)
