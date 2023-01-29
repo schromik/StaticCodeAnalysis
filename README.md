@@ -32,7 +32,7 @@ welche das sind, kann hier nachgesehen werden: https://eslint.org/docs/latest/ru
 Regeln können dabei als "off", "warn" oder "error" hinterlegt sein. Ebenfalls durch "0", "1" und "2" repräsentierbar.
 
 Dabei können diese Regeln global in der "eslintrc.js" unter "rules" festgelegt werden, es besteht aber auch die Möglichkeit diese im Code selbst,
-als Kommentar zu verwalten. Dafür wird beispielsweise mit diesem Kommentar "**/* eslint no-unsafe-finally: 0 */**" die genannt Regel deaktiviert. 
+als Kommentar zu verwalten. Dafür würde beispielsweise mit dem Kommentar "**/* eslint no-unsafe-finally: 0 */**" die genannt Regel deaktiviert werden. 
 
 ## Regeln
 
