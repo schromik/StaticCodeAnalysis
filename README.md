@@ -15,7 +15,7 @@ installiert und konfiguriert werden.
 
 Nach der Beantwortung der Fragen wird die die Konfigurationsdatei im gewünschten Format erstellt, in diesem Fall "**.eslintrc.js**".
 
-![Screenshot](console.jpg)
+![Screenshot](Bilder/console.jpg)
 
 
 
