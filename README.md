@@ -1,6 +1,3 @@
-```diff
--- STILL IN BETA
-```
 # Statische Code Analyse mit ESLint und Semgrep
 
 
