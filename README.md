@@ -21,7 +21,7 @@ Nach der Beantwortung der Fragen wird die die Konfigurationsdatei im gewünschte
 
 ## Konfiguration
 
-![Screenshot](config.png)
+![Screenshot](Bilder/config.png)
 
 
 Die Konfigurationdatei (eslintrc.js) enthält die angegebenen Informationen und kann darüher hinaus noch erweitert werden.
@@ -76,28 +76,28 @@ Dort kann man sich mit seinem Github Account Anmeldung und anschließend eine Pi
 Unter Projects kann ein neue Pipeline angelegt werden, die nachfolgenden Bilder zeigen dabei das Setup.
 
 
-![Screenshot](1.png)
-![Screenshot](2.png)
-![Screenshot](3.png)
-![Screenshot](4.png)
-![Screenshot](5.png)
-![Screenshot](6.png)
-![Screenshot](7.png)
+![Screenshot](Bilder/1.png)
+![Screenshot](Bilder/2.png)
+![Screenshot](Bilder/3.png)
+![Screenshot](Bilder/4.png)
+![Screenshot](Bilder/5.png)
+![Screenshot](Bilder/6.png)
+![Screenshot](Bilder/7.png)
 
 
 Nun können die Regeln unter "**Rule board**" verwaltet werden, dabei kann je nach Spalte entschieden werden, 
 was passieren soll wenn eine Regel verletzt wird.
 
 
-![Screenshot](8.png)
+![Screenshot](Bilder/8.png)
 
 
 Auch hier können ebenfalls vorgefertigte Regeln über "**Add rules**" hinzugefügt werden.
 Eigene Regel können unter "**Editor**" angelegt und anschließend zu der gewünschten Spalte hinzugefügt werden.
 
 
-![Screenshot](9.png)
-![Screenshot](10.png)
+![Screenshot](Bilder/9.png)
+![Screenshot](Bilder/10.png)
 
 
 Werden Änderungen in der GUI vorgenommen, werden diese ebenfalls für die Pipeline übernommen.
