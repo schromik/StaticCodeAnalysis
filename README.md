@@ -104,3 +104,4 @@ Eigene Regel können unter "**Editor**" angelegt und anschließend zu der gewün
 
 
 Werden Änderungen in der GUI vorgenommen, werden diese ebenfalls für die Pipeline übernommen.
+Das Pipeline-Skript (semgrep.yml) ist dabei auch unter "**.github/workflows**" zu finden.
