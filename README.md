@@ -100,4 +100,4 @@ Eigene Regel können unter "**Editor**" angelegt und anschließend zu der gewün
 ![Screenshot](10.png)
 
 
-
+Werden Änderungen in der GUI vorgenommen, werden diese ebenfalls für die Pipeline übernommen.
