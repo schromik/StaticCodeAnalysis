@@ -83,13 +83,17 @@ Unter Projects kann ein neue Pipeline angelegt werden, die nachfolgenden Bilder 
 ![Screenshot](6.png)
 ![Screenshot](7.png)
 
+
 Nun können die Regeln unter "Rule board" verwaltet werden, dabei kann je nach Spalte entschieden werden, 
 was passieren soll wenn eine Regel verletzt wird.
 
+
 ![Screenshot](8.png)
+
 
 Auch hier können ebenfalls vorgefertigte Regeln über "Add rules" hinzugefügt werden.
 Eigene Regel können unter "Editor" angelegt und anschließend zu der gewünschten Spalte hinzugefügt werden.
+
 
 ![Screenshot](9.png)
 ![Screenshot](10.png)
