@@ -4,9 +4,6 @@ Dieses Repository wurde im Rahmen der Projetarbeit für das Wahlpflichtmodul "Te
 
 Für ein besseres Verständnis, empfiehlt es sich um vorhinein die Projektdokumentation zu lesen.
 
-# Klonen des Projekts
-
-Es besteht die Möglichkeit sich dieses Projekt zu klonen, dann muss lediglich ein **"npm install"** sowie ein **"python3 -m pip install semgrep"** ausgeführt werden. Anschließend können die Tests mit **"npm run lint"** und **"npm run semgrep"** ausgeführt werden. Falls das gemacht wird kann der Schritt Installation übersprungen werden. Andernfalls ist im Schritt Installtion beschrieben wie diese erfolgt.
 
 # ESLINT
 
