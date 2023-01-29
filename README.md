@@ -38,8 +38,11 @@ als Kommentar zu verwalten. Dafür würde beispielsweise mit dem Kommentar "**/*
 
 Für die Implementation eigener Regeln bzw. Plugins empfiehlt es sich nun einen Ordner zu erstellen, in diesem Fall habe ich ihn "eslint" genannt.
 In dem Ordner befinden sich drei Arten von Files.
+
 **no-return-trycatch.js** -> Diese enthält die Implementation der Regel in JavaScript, welche auch im Projektbericht erklärt wurde.
+
 **index.js** -> Diese "verbindet" den Namen der Regel mit dem Namen des Moduls in welchem sie Implementiert ist.
+
 **package.json** -> Über die package.json wird der Name des Plugins festgelegt, sowie der Entrypoint (index.js)
 
 In diesem Ordner können nun auch weitere JavaScript Files angelegt werden, welche zusätzliche Regeln definieren.
