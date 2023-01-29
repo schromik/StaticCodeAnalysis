@@ -41,9 +41,9 @@ In dem Ordner befinden sich drei Arten von Files.
 
 **no-return-trycatch.js** -> Diese enthält die Implementation der Regel in JavaScript, welche auch im Projektbericht erklärt wurde.
 
-**index.js** -> Diese "verbindet" den Namen der Regel mit dem Namen des Moduls in welchem sie Implementiert ist.
+**index.js** -> Diese bindet das Modul mittels "require" ein, so das es bei Bedarf geladen werden kann. 
 
-**package.json** -> Über die package.json wird der Name des Plugins festgelegt, sowie der Entrypoint (index.js)
+**package.json** -> Über die package.json wird der Name des Plugins festgelegt, sowie der Entrypoint (index.js).
 
 In diesem Ordner können nun auch weitere JavaScript Files angelegt werden, welche zusätzliche Regeln definieren.
 Diese müssen dann nur noch in der index.js bekannt gemacht werden.
