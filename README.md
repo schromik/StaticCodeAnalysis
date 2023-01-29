@@ -92,7 +92,7 @@ Auch hier können ebenfalls vorgefertigte Regeln über "Add rules" hinzugefügt 
 Eigene Regel können unter "Editor" angelegt und anschließend zu der gewünschten Spalte hinzugefügt werden.
 
 ![Screenshot](9.png)
-
+![Screenshot](10.png)
 
 
 
