@@ -66,10 +66,10 @@ Diese Regeln können dann einfach mit dem Befehl "**semgrep -f semgrepRules.yml*
 
 Github nennt seine CI/CD Lösung ”Actions” bzw. die Pipelines werden als “Workflows” bezeichnet. Ein neuer Workflow kann unter dem Reiter “**Actions**” dann “**New workflow**” und anschließend “**set up a workflow yourself**” eingerichtet werden. Dies ist nichts anderes als ein Pipeline-Skript im yaml-Format.
 
-## ESLint
+   ## ESLint
 Für **ESLint** wird hier das Skript "**eslint.yml**" unter "**.github/workflows**" verwendet. Im Prinzip wird hier lediglich zuerst ESLint installiert und dann mittels "**npx eslint ./thisCodeGetsTested--config .eslintrc.js --ext .js,.jsx,.ts,.tsx**" ausgeführt. Dabei werden die Konfigdatei und die zu scannenden Dateiendungen angegeben. 
 
-## Semgrep
+   ## Semgrep
 Für **Semgrep** gibt es hier eine elegante Lösung mittel einer GUI, welche unter semgrep.dev zur Verfügung steht.
 Dort kann man sich mit seinem Github Account Anmeldung und anschließend eine Pipeline konfigurieren.
 
